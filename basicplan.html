@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Plan Payment</title>
+  <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Payment to access plan</h1>
+    <p>Secure your fitness journey today!</p>
+  </header>
+
+  <main class="payment-container">
+    <form  action="pay.html"  class="payment-form">
+      <h2>Fill the form .</h2>
+      
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="card">Card Number</label>
+        <input type="text" id="card" name="card" placeholder="Enter your card number" maxlength="16" required>
+      </div>
+
+      <div class="form-group">
+        <label for="expiry">Expiry Date</label>
+        <input type="month" id="expiry" name="expiry" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cvv">CVV</label>
+        <input type="password" id="cvv" name="cvv" placeholder="Enter CVV" maxlength="3" required>
+      </div>
+      
+      <button type="submit" class="btn">Proceed to Payment</button>
+      
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 FitGym. All rights reserved.</p>
+  </footer>
+</body>
+</html>
