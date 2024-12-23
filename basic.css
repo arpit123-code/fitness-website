@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body Styling */
+  
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -15,7 +15,7 @@
     padding: 0 20px;
   }
   
-  /* Header Section */
+
   .header {
     background: #4caf50;
     color: white;
@@ -31,7 +31,7 @@
     font-size: 1.2rem;
   }
   
-  /* Payment Container */
+  
   .payment-container {
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@
     min-height: 60vh;
   }
   
-  /* Payment Form */
+  
   .payment-form {
     background: white;
     padding: 20px 30px;
@@ -80,7 +80,7 @@
     outline: none;
   }
   
-  /* Button Styling */
+  
   .btn {
     display: inline-block;
     width: 100%;
@@ -99,7 +99,7 @@
     background-color: #45a049;
   }
   
-  /* Footer */
+  
   .footer {
     margin-top: 20px;
     padding: 10px;
